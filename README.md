@@ -1,0 +1,2 @@
+# easy-COVID19-Datavisualization-project
+学校选修课作业，一个基于echarts的可用于分析COVID19疫情影响的数据可视化项目
