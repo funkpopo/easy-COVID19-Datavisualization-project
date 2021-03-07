@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>疫情后旅游运输行业恢复状况</title>
+		<script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+		<script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/china.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/button.css">
+		<link rel="stylesheet" type="text/css" href="css/login.css">
+		<script>
+			function changeSrc1()
+		{
+		    document.getElementById("iframe1").setAttribute("src","1.html");
+		}
+		function changeSrc2()
+		{
+		    document.getElementById("iframe1").setAttribute("src","2.html");
+		}
+		</script>
+	</head>
+
+	<body>
+		<div class="title" style="position: absolute;">
+			<h1 align="center" style="position: relative;left: 500px;">🐎疫情后旅游&运输业恢复状况调研🐎</h1>
+		</div>
+		<div>
+			<a href="homepage.html">
+				<button class="but" type="button" style="position: absolute;left: 30px;top: 30px;height: 50px;width: auto;"><strong>Homepage</strong></button>
+			</a>
+		</div>
+		<div class="Table" style="position: absolute;left: 20px;top: 100px;">
+			<table style="position: relative;">
+				<tr style="position: relative; width: 1475px;border: #333333;height: 620px;">
+					<td style="position: relative; border: 2px solid #333333; border-radius: 1%; width: 505px;height: 620px; align-content: center;background-color: #333333;">
+						<iframe src="charts/pie/pie1.html" width="505px" height="620px" frameborder="1" name="pie1" scrolling="yes" style="position: relative;background-color: #333333;">
+						</iframe>
+					</td>
+					<td style="position:absolute; border: 2px solid #333333; border-radius: 1%; width: 970px;height: 627px; align-content: center;background-color: #333333;">
+						<table>
+							<tr>
+								<div>
+									<iframe name="iframe1" id="iframe1" src="charts/bar/hotel-sell.html" width="960px" height="550px" frameborder="1"
+									 name="bar1" scrolling="no" style="position: relative;top:3px;left:3px;background-color: #ffffff;">
+									</iframe>
+									<td>
+										<div>
+											<div id="button1" style="position: relative; top: 10px;left: 10px;">
+												<style type="text/css">
+												</style>
+												<a href="charts/bar/trans-month.html" class="css_btn_class" target="iframe1"><strong>一年时间内公路运输量</strong></a>
+												<style type="text/css">
+												</style>
+												<a href="charts/line/weather-per-day.html" class="css_btn_class" target="iframe1"><strong>2020年各月天气情况</strong></a>
+												<style type="text/css">
+												</style>
+												<a href="charts/bar/hotel-sell.html" class="css_btn_class" target="iframe1"><strong>各季度酒店销售情况</strong></a>
+											</div>
+										</div>
+									</td>
+								</div>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
